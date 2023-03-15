@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+main {
+    margin: 50px;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+header>span {
+    margin: 10px;
+}
+header div a {
+    color: red;
+}
+header div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 550px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+    align-items: baseline;
+}
+.navbar p {
+    border: solid 3px rgba(228, 172, 172, 0.527);
+    padding: 10px;
+    border-radius: 15px;
+}
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+}
+#pro {
+    font-size: 10px;
+    color: white;
+    background-color: lightgray;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.menu span {
+    padding: 10px;
+}
+.menu span:hover {
+    background-color: lightgray;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.imgcontainer {
+    /* border: 1px solid red; */
+    width: 22%;
+    min-width: 200px;
+    max-width: 25%;
+    margin-bottom: 40px;
+}
+.imgcontainer img {
+    width: 100%;
+    height: 20%;
+    border-radius: 10px;
+}
+.bold {
+    font-weight: 900;
+    font-size: 15px;
+}
+#icona {
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+}
+#icona2 {
+    width: 20px;
+    height: 20px;
+    padding-right: 5px;
+}
+.container {
+    display: flex;
+    /* border: solid; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+.containertext {
+    /* border: 1px solid purple; */
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.containertextdiv{
+    display: flex;
+    align-items: center;
+}
+.icone {
+    display: flex;
+    align-items: center;
+}
+.icone div{
+    display: flex;
+    align-items: center;
+}
+.icone>div>span {
+    font-size: small;
+    margin-left: 5px;
+}
+#bold {
+    font-weight: bold;
+}
+.Boosted{
+    color: lightgray;
+    font-weight: bolder;
+}

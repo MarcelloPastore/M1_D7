@@ -1,0 +1,33 @@
+*{
+    height: 100%;
+    margin: 0; 
+    padding: 0;
+    font-weight: bold;
+}
+header {
+    padding: 2rem;
+    height: 3vh;
+    background-color: #80cbc4;
+}
+.container {
+    display: flex;
+    height: 80%;
+}
+.container div:first-child {
+    width: 25%;
+    background-color: #FFAB00;
+}
+.container div:nth-child(2) {
+    width: 50%;
+    background-color: #FFD54E;
+}
+.container div:last-child {
+    width: 25%;
+    background-color: #FFF276; 
+}
+footer {
+    height: 4vh;
+    padding: 2rem;
+    height: 3rem;
+    background-color: #26a69a;
+}
